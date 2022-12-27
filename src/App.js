@@ -43,7 +43,7 @@ function ProductCategoryRow({category}) {
 
 function ProductRow({product}) {
   const name = product.stocked ? product.name : 
-    <span style={{color: 'red'}}>
+    <span style={{color: 'green'}}>
       {product.name}
     </span>
 
