@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Feature from './Feature';
 
 const PRODUCTS = [
   {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
@@ -119,6 +120,7 @@ function FilterableProductTable({products}) {
         filterText={filterText}
         inStockOnly={inStockOnly}
       />
+      <Feature />
     </div>
   )
 }
